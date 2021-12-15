@@ -1,4 +1,4 @@
-APP_DIRECTORY=flask_app
+APP_DIRECTORY=src
 TEST_DIRECTORY=tests
 
 default: help
