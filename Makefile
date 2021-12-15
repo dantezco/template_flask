@@ -54,7 +54,7 @@ test:
 		pytest -v -p no:warnings $(TEST_DIRECTORY); \
 	)
 
-test:
+test-cov:
 	( \
 		. ./venv/bin/activate; \
 		pytest -v -p no:warnings --cov-report term-missing --cov=src $(TEST_DIRECTORY); \
